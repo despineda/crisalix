@@ -163,10 +163,13 @@ img::-moz-selection {
   #mainNav .navbar-nav .nav-item .nav-link {
     padding: 1.1em 1em !important;
   }
+
+  /*main nav*/
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #212529;
+    opacity: 0.9;
+    background-color: #038A9F;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -697,3 +700,4 @@ ul.social-buttons li a {
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #fed136;
 }
+
