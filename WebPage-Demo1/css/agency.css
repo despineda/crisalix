@@ -25,8 +25,25 @@ a:hover {
   color: #fed136 !important;
 }
 
-#carousel {
-  opacity: 0.8;
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: #fff;
+    opacity: .3;
+}
+
+.intro-heading {
+    position: absolute;
+    z-index: 2;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    font-size: 22px;
+    font-style: italic;
+    line-height: 22px;
+    margin-bottom: 25px;
+    font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 h1,
@@ -135,12 +152,14 @@ img::-moz-selection {
 
 /*navbar-brand */
 #mainNav .navbar-brand {
-  color: #0E4D6F;
-  font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  color: #0E4D6F; 
+  font-family: 'Cookie', cursive;
+
+
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #fec503;
+  color: #fff;
 }
 
 /*navbar items*/
@@ -149,12 +168,12 @@ img::-moz-selection {
   font-weight: bold;
   padding: 0.75em 0;
   letter-spacing: 1px;
-  color: #0E4D6F;
+  color: #0E4D6F;  
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  color: #808383;
 }
 
 @media (min-width: 992px) {
@@ -175,15 +194,16 @@ img::-moz-selection {
     padding: 1.1em 1em !important;
   }
 
-  /*main nav*/
+  /*main nav #038A9F*/
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
     opacity: 0.9;
-    background-color: #038A9F;
+    background-color: #fff; 
+    /*#BCC9CB*/
   }
   #mainNav.navbar-shrink .navbar-brand {
-    font-size: 1.70em;
+    font-size: 1.80em;
     padding: 12px 0;
   }
 }
@@ -199,6 +219,10 @@ header.masthead {
 }
 
 header.masthead .intro-text {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  padding-left: 120px;
   padding-top: 150px;
   padding-bottom: 100px;
 }
@@ -213,7 +237,7 @@ header.masthead .intro-text .intro-lead-in {
 
 header.masthead .intro-text .intro-heading {
   font-size: 50px;
-  font-weight: 700;
+  font-weight: 700;s
   line-height: 50px;
   margin-bottom: 25px;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
@@ -232,14 +256,13 @@ header.masthead .intro-text .intro-heading {
     font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   }
   header.masthead .intro-text .intro-heading {
-    color: #3498DB;
+    opacity: .8;
+    color: #000;
     font-size: 55px;
-    font-weight: 700;
+    font-weight: 550;
     line-height: 75px;
     margin-bottom: 50px;
-    font-family: 'Baloo Tammudu', cursive;
-
-    /*font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';*/
+    font-family: 'Cinzel', serif;
   }
 }
 
@@ -712,3 +735,44 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   background-color: #fed136;
 }
 
+#buttonNav {
+    background-color: #0E4D6F;
+    border: none;
+    border-radius: 60px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;  
+    font-family: 'Chivo', sans-serif;
+
+}
+
+#button1 {
+    background-color: #0E4D6F;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;  
+    font-family: 'Chivo', sans-serif;
+
+}
+
+.logo{
+  width: 30px;
+  height: 30px;
+}
+
+.font{
+  font-size: 13px;
+  font-style: "Arial";
+}
