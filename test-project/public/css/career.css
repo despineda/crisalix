@@ -10,7 +10,8 @@ a{
 	font-size: 12px;
 }
 
-.jumbotron{
+/****banner****/
+.jumbotron-banner{
 	background-image: url("/img/header-companies.jpg");
 	color: #ffff;
 	height: 250px;
@@ -36,7 +37,7 @@ a{
 	font-weight: 400;
 }
 
-/**open post section**/
+/****open post section****/
 section{
     padding: 100px 0;
 }
@@ -147,7 +148,7 @@ a.job-description {
 .form-control{
 	width: 400px;
 	display: inline-block;
-	padding-bottom: 12px;
+	padding-bottom: 11px;
 	border-radius: 0;
 }
 
@@ -170,6 +171,19 @@ a.job-description {
 	.div-one, .div-two, .div-three{
 		padding: 10px;
 	}
+
+	.form-control{
+	width: 180px;
+	height: 30px;
+	display: inline-block;
+	padding-bottom: 12px;
+	border-radius: 0;
+	}
+
+	.submit-btn{
+		height: 31px;
+	}
+
 
 }
 
